@@ -1,0 +1,62 @@
+[
+  {
+    "listing_id": "az-001",
+    "address": "100 N Central Ave, Phoenix, AZ 85004",
+    "zip": 85004,
+    "listing_price": 350000,
+    "sqft": 1200,
+    "beds": 2,
+    "baths": 1.0,
+    "baths_full": null,
+    "garage": null,
+    "raw_description": "Cozy downtown condo, 1 full bath."
+  },
+  {
+    "listing_id": "az-002",
+    "address": "2500 E Camelback Rd, Phoenix, AZ 85016",
+    "zip": 85016,
+    "listing_price": 425000,
+    "sqft": 1600,
+    "beds": 3,
+    "baths": 2.5,
+    "baths_full": null,
+    "garage": 2,
+    "raw_description": "Spacious home with 2-car garage and 2.5 baths."
+  },
+  {
+    "listing_id": "az-003",
+    "address": "4501 N 32nd St, Phoenix, AZ 85018",
+    "zip": 85018,
+    "listing_price": 500000,
+    "sqft": 1800,
+    "beds": 3,
+    "baths": 2.0,
+    "baths_full": 2,
+    "garage": 2,
+    "raw_description": "Updated 3 bed with 2-car garage."
+  },
+  {
+    "listing_id": "az-invalid-zip",
+    "address": "999 Fake St, Los Angeles, CA 90001",
+    "zip": 90001,
+    "listing_price": 600000,
+    "sqft": 1500,
+    "beds": 3,
+    "baths": 2.0,
+    "baths_full": 2,
+    "garage": 1,
+    "raw_description": "Not in Arizona model coverage."
+  },
+  {
+    "listing_id": "az-004",
+    "address": "7820 S 48th St, Phoenix, AZ 85042",
+    "zip": 85042,
+    "listing_price": 280000,
+    "sqft": 1100,
+    "beds": 3,
+    "baths": 2.0,
+    "baths_full": null,
+    "garage": null,
+    "raw_description": "Affordable family home, no garage info."
+  }
+]

@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment and secrets (never deploy these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+*_token.txt
+.hf_token
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+
+# Jupyter / local dev (not part of the Space)
+*.ipynb
+.ipynb_checkpoints/

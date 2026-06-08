@@ -1,0 +1,16 @@
+.git
+.gitignore
+.gitattributes
+README.md
+.venv
+venv
+__pycache__
+*.pyc
+.env
+.env.*
+*.ipynb
+.ipynb_checkpoints
+.cursor
+.idea
+.vscode
+.DS_Store

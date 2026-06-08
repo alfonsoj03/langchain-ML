@@ -1,0 +1,12 @@
+langchain>=0.3
+langchain-google-genai
+httpx
+pydantic>=2
+python-dotenv
+pytest
+pytest-asyncio
+fastapi
+scikit-learn==1.6.1
+pandas
+category_encoders
+numpy
