@@ -1,20 +1,17 @@
 import os
 import sys
-from pathlib import Path
 
 import httpx
 
-from scanner.config import PREDICTION_API_URL
+from scanner.config import PREDICTION_API_URL, PREDICTION_DIR
 from scanner.state import NormalizedListing, PredictionResult, ScannerState
-
-_PREDICTION_DIR = Path(__file__).resolve().parent.parent.parent.parent / "langchain-prediction"
 
 
 def _ensure_prediction_path() -> None:
-    path = str(_PREDICTION_DIR)
+    path = str(PREDICTION_DIR)
     if path not in sys.path:
         sys.path.insert(0, path)
-    os.chdir(_PREDICTION_DIR)
+    os.chdir(PREDICTION_DIR)
 
 
 def _predict_direct(listing: NormalizedListing) -> float:
